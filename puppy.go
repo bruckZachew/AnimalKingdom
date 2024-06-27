@@ -1,9 +1,13 @@
 package puppy
 
+import (
+	dog "github.com/bruckZachew/dummer"
+)
+
 func Bark() string {
-	return "woof!"
+	return dog.Bark("woof!")
 }
 
 func Barks() string {
-	return "woof! woof! woof!"
+	return dog.Bark("woof! woof! woof!")
 }
